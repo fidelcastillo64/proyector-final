@@ -1,0 +1,235 @@
+.switch {
+  background:#343D5B ;
+  border-radius: 1000px;
+  border:none;
+  position: relative;
+  cursor: pointer;
+  display: flex;
+  outline: none;
+  left: 40%;
+}
+.switch::after{
+  content:"";
+  display:block;
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  background:#ffffff;
+  top: 0;
+  left: 0;
+  right: unset;
+  border-radius: 100px;
+  transition: .3s ease all;
+  box-shadow: 0px 0px 2px 2px rgba(0, 0, 0, .2);
+}
+
+
+span {
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  display: block;
+  background: none;
+  color: #ffffff;
+}
+.switch.active{
+  background: orange;
+  color: #000;
+  transition: .3s ease all;
+}
+.switch.active::after{
+  right: 0;
+  left: unset;
+}
+
+
+:root {
+  /*colores de oscuro*/
+  --botomcolorD: #60696D;
+  --fondoD: #5595B2;
+  --tex-blanco: white;
+  /*colores de blanco*/
+  --tex-black:black;
+
+}
+
+
+/* Formateamos el label que servirá de contenedor */
+
+
+ 
+/* Ocultamos el checkbox html */
+
+#interruptor{
+top: 10px;
+position: relative;
+}
+/*aspectos generales: bordes y color de fondo de calculadora*/ 
+.calculadora { 
+  width: 450px;
+  height: 700px;
+  text-align: center;
+  background-color: #e5e7e9; 
+  border-radius: 20px;
+  color: #535c79;
+}
+#calculadora.claro{
+  background-color: #062e41; 
+  width: 450px;
+  height: 700px;
+  text-align: center;
+  border-radius: 20px;
+  color: var(--tex-blanco);
+}
+#calculadora{
+  height: 100%;
+  
+}
+#calSup{
+height: 30%;
+background-color: none;
+}
+#parteIn{
+  border: 10px;
+  background-color: #60696D;
+  width: 100%;
+  height: 70%;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+}
+#parteIn.claro{
+  border: 10px;
+  background-color: #bfe3f3;
+  width: 100%;
+  height: 70%;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+}
+/*botones normales: anchura y margen*/ 
+#botones
+{ 
+  width: 22%;
+  height: 95%;
+  padding: 0;
+  border-style: solid;
+  border-color: none; 
+  background-color: var(--botomcolorD);
+  font-size: 35px;
+  border-radius: 50px;
+  position: center;
+  color: #ffffff;
+}
+#botones.claro{
+  width: 22%;
+  height: 95%;
+  padding: 0;
+  border-style: solid;
+  border-color: none; 
+  background-color: #c3c7d4;  
+  color: #ffffff;
+  font-size: 35px;
+  border-radius: 50px;
+  position: center;
+}
+
+#especial{
+  width: 22%;
+  height: 95%;
+  padding: 0;
+  border-style: solid;
+  border-color: none; 
+  background-color: #597B8A;
+  font-size: 35px;
+  border-radius: 50px;
+  position: center;
+  color: #ffffff;
+}
+#especial.claro{
+  width: 22%;
+  height: 95%;
+  padding: 0;
+  border-style: solid;
+  border-color: none; 
+  background-color: #66adcc;
+  font-size: 35px;
+  border-radius: 50px;
+  position: center;
+  color: #ffffff;
+}
+
+#botonesD{
+  height: 20%;
+  width: 100%;
+}
+#botonSD{
+  width: 22%;
+  height: 95%;
+  padding: 0;
+  border-style: solid;
+  border-color: none; 
+  background-color: var(--botomcolorD);
+  font-size: 35px;
+  border-radius: 50px;
+  position: center;
+  color: #ffffff;
+}
+#botonSD.claro{
+  width: 22%;
+  height: 95%;
+  padding: 0;
+  border-style: solid;
+  border-color: none; 
+  background-color: #c3c7d4;  
+  font-size: 35px;
+  border-radius: 50px;
+  position: center;
+  color: #ffffff;
+}
+#botonSI{
+  width: 22%;
+  height: 95%;
+  padding: 0;
+  border-style: solid;
+  border-color: none; 
+  background-color: var(--botomcolorD);
+  font-size: 35px;
+  border-radius: 50px;
+  color: #ffffff;
+  position: center;
+}
+#botonSI.claro{
+  width: 22%;
+  height: 95%;
+  padding: 0;
+  border-style: solid;
+  border-color: none; 
+  background-color: #c3c7d4;
+  font-size: 35px;
+  border-radius: 50px;
+  color: #ffffff;
+  position: center;
+}
+#pantalla2{
+  width: 100%;
+  height: 40%;
+  position: relative;
+  font-size: 40px;
+  text-align: right;
+}
+#pantalla1{
+  width: 100%;
+  height: 60%;
+  position: relative;
+  font-size: 50px;
+  text-align: right;
+}
+#pantallaG{
+height: 50%;
+position: relative;
+top: 30%;
+width: 95%;
+}
+
+/*botones especiales*/ 
+.calculadora input.largo { color: red; width: 60px; }
+/*# sourceMappingURL=estilos.css.map */

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agenda</title>
+    <link rel="stylesheet" href="estilos.css">
+		<script src="https://kit.fontawesome.com/7407b18751.js" crossorigin="anonymous"></script>
+
+</head>
+<body onload="cargar()">
+    <header>
+        <input type="button" value="Mostrar" onclick="seletor()">
+        <select id="selectorMenu">
+            <option>Agregar</option>
+            <option>Ver</option>
+            <option>Editar</option>
+        </select>
+        Agenda
+    </header> 
+    <!-- comentario se omitio el buscar porque el ver con -->
+    <div class="contenedor" id="contenedor">
+        <div class="contactos" id="Add">
+            <div class="sup">
+                <h2>Agregar Contactos</h2> 
+            </div>
+            <p>Nombre</p>
+            <input type="text" id="NombreInt">
+            <p>Numero</p>
+            <input type="text" id="NumeroInt">
+            <p>Correo</p>
+            <input type="text" id="CorreoInt">
+            <input type="button" value="Agregar" onclick="agregarcontacto()">
+        </div>
+        <div class="contactos" id="watch">
+            <div class="sup">
+                <h2>Ver Contacto</h2>
+            </div>
+            <p>Nombre</p>
+            <select id="selectorN1"></select>
+            <p>Numero</p>
+            <section id="numero">:</section>
+            <p>Correo</p>
+            <section id="correo">:</section>
+            <input type="button" value="Ver contacto" onclick="vercontacto()">
+        </div>
+        <div class="contactos" id="edit">
+            <div class="sup">
+                <h2>Editar Contacto</h2>
+            </div>
+            <p>Nombre</p>
+            <select id="selectorN2"></select>
+            <p>Nuevo Nombre</p>
+            <input type="text" id="NombreInt2">
+            <p>Nuevo Numero</p>
+            <input type="text" id="NumeroInt2">
+            <p>Nuevo Correo</p>
+            <input type="text" id="CorreoInt2">
+            <input type="button" value="Editar" onclick="editarcontacto()">
+        </div>
+    </div>
+</body>
+    <script src="main.js" ></script>
+</html>

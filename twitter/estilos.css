@@ -1,0 +1,479 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	background-color: white;
+	color: #FFFFFF;
+}
+#tablai{
+	border: 0;
+	height: 40%;
+	margin-left: 20px;
+}
+
+
+#contenedorI{
+	height: 600px;
+	background-color: transparent; 
+	margin-left: 0%;
+	width: 20%;
+	position: relative;
+    float: left;
+}
+/*tabla izquierda*/
+#barraI{
+	margin-left: 15%;
+	border: 0;
+	width: 100%-20px;
+	height: 70%;
+	background-color: transparent;
+}
+/*lineas de la tabla izquierda*/
+/*lineas verticales*/
+#linv{
+	height: 12.28%;
+}
+/*icono de twitter de la barra lateral*/
+#Bicon{
+	width: 20%;
+	position: relative;
+	float: left;
+}
+/*iconos de la barra*/
+#baricon{
+	width: 12%;
+	position: relative;
+	float: left;
+	margin-left: 10%;
+	background-color: transparent;
+}
+/*icono de usuario*/
+#perfiIcon{
+	width: 12%;
+	position: relative;
+	float: left;
+	margin-left: 10%;
+	border-radius: 1cm;
+}
+/*formato de textos de la barra izquierda home*/
+#bartxt{
+	margin-top: 2%;
+	position: relative;
+	float: left;
+	margin-left: 5%;
+	color: #08a0e9;
+	font-size: 1.1vw;
+	background-color: transparent;
+}
+/*formato de textos de la barra izquierda inferior*/
+#bartxtI{
+	margin-top: 2%;
+	position: relative;
+	float: left;
+	margin-left: 5%;
+	color: black;
+	background-color: transparent;
+	font-size: 1.1vw;
+}
+/*boton de Tweet*/
+#BbarraI{
+	margin-left: 7.5%;
+	border-radius: 1cm;
+	height: 50px;
+	width: 85%;
+	background-color: #08a0e9;
+	cursor: pointer;
+	outline:none;
+}
+/*botones contenedor izquierdo*/
+#botonesCI{
+	border-radius:20px;
+	outline:none;
+	border: 0px;
+	cursor: pointer;
+	color: black;
+	background-color: transparent;
+	width: 95%;
+	height: 95%;
+	float: left;
+	top: 0%;
+}
+#botonesCI:hover {
+	outline:none;
+	border: 0px;
+	cursor: pointer;
+	background-color: #79BFFF;
+}
+
+#contenedorC{
+	/*alTURA DEL OBETO*/
+	height: 600px;
+	background-color: transparent;
+    width: 50%;
+    /*borde redondeado COMETADO POR RAZONES OVIAS*/
+    /*border-radius: 1cm;*/
+    /*overflow: hidden; restablecer despues*/ 
+    /*posicion desde la  izquierda*/
+    /*combiar cursor cuando es ta arriba*/
+    position: relative;
+    float: left;
+}
+
+#novedades{
+	height: 10%;
+	background-color: transparent;
+}
+#textoSC{
+	color: black;
+	position: relative;
+	float: left;
+	top: 35%;
+	margin-left: 1%;
+	background-color: transparent;
+}
+/*imagen de novedades*/
+#nob{
+	height: 100%;
+	float: right;
+	position: relative;
+	background-color: transparent;
+}
+/*boton bnom*/
+#Bnob{
+	height: 80%;
+	float: right;
+	position: relative;
+	background-color: transparent;
+	border: 0;
+	top: 10%;
+}
+#Bnob:hover{
+	cursor: pointer;
+}
+#Etwitte1{
+	background-color: transparent;
+	height: 65%;
+	position: relative;
+	width: 100%;
+}
+#Etwitte{
+	height: 15%;
+	position: relative;
+	width: 100%;
+}
+#userT{
+	height: 80%;
+	left: 5%;
+	top: 10%;
+	position: absolute;
+	border-radius: 3cm;
+	float: left;
+}
+#barraT{
+	outline: none;
+ 	border: 1px;
+ 	float: right;
+ 	position: relative;
+ 	top: 15%;
+ 	right: 10%;
+ 	height: 70%;
+ 	width: 75%;
+ 	color: black;
+ 	background-color: rgba(128, 128, 128, 0);
+}
+#twiBotones{
+	background-color: transparent;
+	height: 35%;
+	position: absolute;
+	width: 100%;
+}
+#botomimg{
+	background-color: transparent;
+	height: 80%;
+	outline: none;
+	border: 0px;
+	position: relative;
+	top: 10%;
+	left: 10%;
+	border-radius: 10px;
+}
+#botomimg:hover{
+	background-color: #79BFFF;
+	cursor: pointer;
+}
+#iconimg{
+	height: 100%;
+	background-color: transparent;
+}
+#iconimg2{
+	height: 80%;
+	background-color: transparent;
+}
+#Btwet{
+	top: 5%;
+	right: 10%;
+	border-radius: 1cm;
+	height: 90%;
+	width: 20%;
+	background-color: #08a0e9;
+	cursor: pointer;
+	outline:none;
+	position: relative;
+	float: right;
+}
+
+/*twiet con solo escrito*/
+#superiorES{
+	height: 70%;
+	width: 100%;
+	background-color: transparent;
+}
+
+#escrito{
+	height: 15%;
+	top: 2.5%;
+	background-color: transparent;
+	position: relative;
+	width: 100%;
+}
+#userT2{
+	height: 80%;
+	left: 5%;
+	top: 10%;
+	border-radius: 3cm;
+	float: left;
+	position: relative;
+}
+#name{
+	color: black;
+	position: relative;
+	background-color: transparent;
+	top: -60%;
+	left: 15%;
+	width: 8%;
+}
+#subname{
+	position: relative;
+	color: gray;
+	background-color: transparent;
+	top: -93%;
+	left: 20%;
+	width: 50%;
+}
+#car256{
+	position: relative;
+	color: black;
+	background-color: transparent;
+	width: 80%;
+	top: -90%;
+	left: 15%;
+	font-size:1.05vw; 
+}
+#hast{
+	color:blue;
+}
+#escrito2{
+	height: 20%;
+	top: 0%;
+	background-color: transparent;
+	position: relative;
+	width: 100%;
+}
+#emojis{
+	height: 100%;
+	width: 80%;
+	left: 10%;
+	position: relative;
+}
+#botomemoji{
+	background-color: transparent;
+	height: 80%;
+	outline: none;
+	border: 0px;
+	position: relative;
+	top: 10%;
+	left: 10%;
+	border-radius: 5px;
+	top: 10%
+}
+#botomemoji:hover{
+	background-color: #79BFFF;
+	cursor: pointer;
+}
+#botomemoji2{
+	background-color: transparent;
+	height: 80%;
+	outline: none;
+	border: 0px;
+	border-radius: 5px;
+	top: 10%
+}
+#botomemoji2:hover{
+	background-color: #79BFFF;
+	cursor: pointer;
+}
+#ESbotom{
+	height: 30%;
+	background-color: transparent;
+}
+#escrito2{
+	height: 50%;
+	top: 2.5%;
+	background-color: transparent;
+	position: relative;
+	width: 100%;
+}
+#superiorES2{
+	height: 20%;
+	width: 100%;
+	background-color: transparent;
+}
+#emojis2{
+	height: 100%;
+	width: 80%;
+	left: 10%;
+	position: relative;
+}
+#imagecon{
+	height: 70%;
+	width: 100%;
+	background-color: transparent;
+	position: relative;
+}
+#ESbotom2{
+	height: 10%;
+	background-color: transparent;
+	position: relative;
+}
+#imagenF{
+	top: 10%;
+	right: 10%;
+	position: absolute;
+	width: 80%;
+	height: 80%;
+}
+/*contenedor derecho*/
+#contenedorD{
+	height: 600px;
+	background-color: rgb(255, 255, 255); 
+	margin-left: 0%;
+	width: 29%;
+	position: relative;
+    float: left;
+	border-left: 1cm;
+}
+/*lineas de separacion entre los contenedores*/
+#lineas{
+	position: relative;
+    float: left;
+    width: 0.1%;
+    size: 700px;
+    color: rgb(14, 13, 13);
+}
+
+#buscador{
+	background-color: rgb(102, 102, 102);
+	color: black;
+	position: relative;
+	width: 85%;
+	height: 6.5%;
+	border-radius: 15px;
+	left: 10%;
+	top: 1%;
+}
+#buscador>input{
+	height: 100%;
+	width: 80%;
+	color: rgb(255, 255, 255);
+	border: none;
+	background-color: rgba(240, 248, 255, 0);
+
+}
+#buscador>i{
+	position: relative;
+	left: 15px;
+	color: rgb(255, 255, 255);
+	height: 100%;
+	width: 15%;
+	background-color: rgba(255, 0, 0, 0);	
+}
+.barraIZuiqerda{
+	height: 80%;
+	background-color: rgb(168, 168, 168);
+	width: 85%;
+	top: 10%;
+	left: 10%;
+	position: relative;
+	border-radius: 10px;
+}
+#topTendencias{
+	height: 10%;
+	background-color: none;
+	position: relative;
+	border-radius: 100px;
+	font-size: 18px;
+	border: none;
+}
+#topTendencias>p{
+	background-color:rgba(0, 255, 255, 0);
+	color: rgb(255, 255, 255);
+	height: 50%;
+	width: 50%;
+	left: 10px;
+	top: 30%;
+	position: relative;
+}
+#topTendencias>i{
+	background-color:rgba(0, 255, 255, 0);
+	position: relative;
+	float: right;
+	font-size: 30px;
+	right: 10px;
+	top: -13px;
+}
+.barraIZuiqerda>a{
+	background-color:rgba(7, 187, 187, 0);
+	left: 10px;
+	position: relative;
+}
+.barraIZuiqerda>section{
+	background-color:rgba(7, 187, 187, 0);
+	left: 10px;
+	position: relative;
+	font-size: 20px;
+	color: rgb(49, 49, 49);
+	width: 50%;
+}
+.barraIZuiqerda>div{
+	background-color: rgba(163, 55, 55, 0);
+	position: relative;
+	height: 15%;
+	left: 2.5%;
+	width: 95%;
+	border-style:solid;
+	border-color: rgb(245, 244, 244);
+	float: left;
+	border-radius: 5%;
+}
+.barraIZuiqerda>div>img{
+	position: absolute;
+	height: 100%;
+	right: 0%;
+	border-radius: 5%;
+	top: 0%;
+}
+.barraIZuiqerda>div>section{
+	background-color:rgba(7, 187, 187, 0);
+	left: 10px;
+	position: relative;
+	font-size: 15px;
+	color: rgb(49, 49, 49);
+	width: 50%;
+}
+.barraIZuiqerda>div>a{
+	background-color:rgba(7, 187, 187, 0);
+	left: 10px;
+	position: relative;
+}
+
+
+
